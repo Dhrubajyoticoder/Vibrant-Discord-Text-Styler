@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+# 🎨 Vibrant Discord Text Styler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and customizable color picker UI designed for Discord text styling. Built with **React**, **Mantine UI**, **Tailwind CSS**, and **Framer Motion** for smooth animations.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🎨 **Vibrant Color Selection** – Choose from multiple Discord-themed colors.
+- 🌙 **Dark & Light Mode** – Fully responsive for different themes.
+- 🎭 **Smooth Animations** – Powered by Framer Motion.
+- 🖌 **Styled with TailwindCSS** – Elegant and modern UI.
+- 🛠 **Built using Mantine UI** – Enhances component design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
+```sh
+# Clone the repository
+git clone https://github.com/Dhrubajyoticoder/Vibrant-Discord-Text-Styler.git
 
-## Expanding the ESLint configuration
+# Navigate to the project folder
+cd Vibrant-Discord-Text-Styler
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🏃‍♂️ Usage
+```sh
+# Start the development server
+npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Build for production
+npm run build
 ```
+
+## 🛠 Technologies Used
+- **React.js** – Core framework
+- **Tailwind CSS** – Styling
+- **Framer Motion** – Animations
+- **Mantine UI** – Component library
+- **Vite** – Fast build tool
+
+## 📷 Demo
+![Vibrant Discord Text Styler UI](https://vibrant-discord-text-styler-rkh1.vercel.app/)
+
+## 📝 License
+This project is open-source and available under the **MIT License**.
+
+---
+Made with ❤️ by [Dhrubajyoti Das](https://github.com/Dhrubajyoticoder)
+
