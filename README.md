@@ -1,48 +1,37 @@
-# 🎨 Vibrant Discord Text Styler
+# Vibrant Discord Text Styler
 
-A sleek and customizable color picker UI designed for Discord text styling. Built with **React**, **Mantine UI**, **Tailwind CSS**, and **Framer Motion** for smooth animations.
+A sleek and modern color picker UI for Discord-styled text themes, built using React, Tailwind CSS, Framer Motion, and Mantine UI.
 
-## 🚀 Features
-- 🎨 **Vibrant Color Selection** – Choose from multiple Discord-themed colors.
-- 🌙 **Dark & Light Mode** – Fully responsive for different themes.
-- 🎭 **Smooth Animations** – Powered by Framer Motion.
-- 🖌 **Styled with TailwindCSS** – Elegant and modern UI.
-- 🛠 **Built using Mantine UI** – Enhances component design.
+## 🚀 Demo
+Check out the live demo: [Vibrant Discord Text Styler](https://vibrant-discord-text-styler-rkh1.vercel.app/)
 
-## 📦 Installation
+## 📌 Features
+- Beautiful, interactive color picker UI.
+- Smooth animations with Framer Motion.
+- Fully responsive design.
+- Uses Mantine UI components for styling.
+- Easy selection of Discord-styled color themes.
+
+## 🛠️ Installation
+To get started with this project, follow these steps:
+
 ```sh
-# Clone the repository
 git clone https://github.com/Dhrubajyoticoder/Vibrant-Discord-Text-Styler.git
-
-# Navigate to the project folder
 cd Vibrant-Discord-Text-Styler
-
-# Install dependencies
 npm install
-```
-
-## 🏃‍♂️ Usage
-```sh
-# Start the development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## 🛠 Technologies Used
-- **React.js** – Core framework
-- **Tailwind CSS** – Styling
-- **Framer Motion** – Animations
-- **Mantine UI** – Component library
-- **Vite** – Fast build tool
+## 🏗️ Technologies Used
+- **React.js** - Frontend library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animations and transitions
+- **Mantine UI** - Component library for UI
+- **TypeScript** - Strongly typed JavaScript
 
-## 📷 Demo
-![Vibrant Discord Text Styler UI](https://vibrant-discord-text-styler-rkh1.vercel.app/)
-
-## 📝 License
-This project is open-source and available under the **MIT License**.
+## 📜 License
+This project is licensed under the MIT License.
 
 ---
-Made with ❤️ by [Dhrubajyoti Das](https://github.com/Dhrubajyoticoder)
 
+### 💡 Feel free to contribute or raise an issue if you have any suggestions!
